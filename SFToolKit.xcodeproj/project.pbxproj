@@ -17,6 +17,8 @@
 		226F3B9D17044C5400D489DB /* SFToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226F3B9C17044C5400D489DB /* SFToolKitTests.m */; };
 		22F5E08D17044C7E005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
 		22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
+		97DFCFE1170457A8004C33B6 /* NSFileManager+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DFCFE0170457A8004C33B6 /* NSFileManager+Directories.m */; };
+		97DFCFE217045840004C33B6 /* NSFileManager+Directories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 97DFCFDF170457A8004C33B6 /* NSFileManager+Directories.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				226F3B8417044C5400D489DB /* SFToolKit.h in CopyFiles */,
+				97DFCFE217045840004C33B6 /* NSFileManager+Directories.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,8 @@
 		226F3B9C17044C5400D489DB /* SFToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFToolKitTests.m; sourceTree = "<group>"; };
 		22F5E08B17044C7E005D948C /* SFMD5Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMD5Utilities.h; sourceTree = "<group>"; };
 		22F5E08C17044C7E005D948C /* SFMD5Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMD5Utilities.m; sourceTree = "<group>"; };
+		97DFCFDF170457A8004C33B6 /* NSFileManager+Directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Directories.h"; sourceTree = "<group>"; };
+		97DFCFE0170457A8004C33B6 /* NSFileManager+Directories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Directories.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,7 @@
 		226F3B8017044C5400D489DB /* SFToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				97DFCFDE17045786004C33B6 /* Directory Utilities */,
 				226F3B8317044C5400D489DB /* SFToolKit.h */,
 				22F5E08B17044C7E005D948C /* SFMD5Utilities.h */,
 				22F5E08C17044C7E005D948C /* SFMD5Utilities.m */,
@@ -146,6 +152,15 @@
 				226F3B9817044C5400D489DB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97DFCFDE17045786004C33B6 /* Directory Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				97DFCFDF170457A8004C33B6 /* NSFileManager+Directories.h */,
+				97DFCFE0170457A8004C33B6 /* NSFileManager+Directories.m */,
+			);
+			name = "Directory Utilities";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */,
+				97DFCFE1170457A8004C33B6 /* NSFileManager+Directories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
