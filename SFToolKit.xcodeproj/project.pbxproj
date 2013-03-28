@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		226F3B7F17044C5400D489DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7E17044C5400D489DB /* Foundation.framework */; };
+		226F3B8417044C5400D489DB /* SFToolKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 226F3B8317044C5400D489DB /* SFToolKit.h */; };
+		226F3B8E17044C5400D489DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B8D17044C5400D489DB /* SenTestingKit.framework */; };
+		226F3B9017044C5400D489DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B8F17044C5400D489DB /* UIKit.framework */; };
+		226F3B9117044C5400D489DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7E17044C5400D489DB /* Foundation.framework */; };
+		226F3B9417044C5400D489DB /* libSFToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7B17044C5400D489DB /* libSFToolKit.a */; };
+		226F3B9A17044C5400D489DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 226F3B9817044C5400D489DB /* InfoPlist.strings */; };
+		226F3B9D17044C5400D489DB /* SFToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226F3B9C17044C5400D489DB /* SFToolKitTests.m */; };
+		22F5E08D17044C7E005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
+		22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226F3B9217044C5400D489DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226F3B7317044C5400D489DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226F3B7A17044C5400D489DB;
+			remoteInfo = SFToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		226F3B7917044C5400D489DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				226F3B8417044C5400D489DB /* SFToolKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		226F3B7B17044C5400D489DB /* libSFToolKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSFToolKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		226F3B7E17044C5400D489DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		226F3B8217044C5400D489DB /* SFToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFToolKit-Prefix.pch"; sourceTree = "<group>"; };
+		226F3B8317044C5400D489DB /* SFToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFToolKit.h; sourceTree = "<group>"; };
+		226F3B8C17044C5400D489DB /* SFToolKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFToolKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		226F3B8D17044C5400D489DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		226F3B8F17044C5400D489DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		226F3B9717044C5400D489DB /* SFToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFToolKitTests-Info.plist"; sourceTree = "<group>"; };
+		226F3B9917044C5400D489DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		226F3B9B17044C5400D489DB /* SFToolKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFToolKitTests.h; sourceTree = "<group>"; };
+		226F3B9C17044C5400D489DB /* SFToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFToolKitTests.m; sourceTree = "<group>"; };
+		22F5E08B17044C7E005D948C /* SFMD5Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMD5Utilities.h; sourceTree = "<group>"; };
+		22F5E08C17044C7E005D948C /* SFMD5Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMD5Utilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226F3B7817044C5400D489DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226F3B7F17044C5400D489DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226F3B8817044C5400D489DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226F3B8E17044C5400D489DB /* SenTestingKit.framework in Frameworks */,
+				226F3B9017044C5400D489DB /* UIKit.framework in Frameworks */,
+				226F3B9117044C5400D489DB /* Foundation.framework in Frameworks */,
+				226F3B9417044C5400D489DB /* libSFToolKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226F3B7217044C5400D489DB = {
+			isa = PBXGroup;
+			children = (
+				226F3B8017044C5400D489DB /* SFToolKit */,
+				226F3B9517044C5400D489DB /* SFToolKitTests */,
+				226F3B7D17044C5400D489DB /* Frameworks */,
+				226F3B7C17044C5400D489DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226F3B7C17044C5400D489DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226F3B7B17044C5400D489DB /* libSFToolKit.a */,
+				226F3B8C17044C5400D489DB /* SFToolKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		226F3B7D17044C5400D489DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226F3B7E17044C5400D489DB /* Foundation.framework */,
+				226F3B8D17044C5400D489DB /* SenTestingKit.framework */,
+				226F3B8F17044C5400D489DB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		226F3B8017044C5400D489DB /* SFToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				226F3B8317044C5400D489DB /* SFToolKit.h */,
+				22F5E08B17044C7E005D948C /* SFMD5Utilities.h */,
+				22F5E08C17044C7E005D948C /* SFMD5Utilities.m */,
+				226F3B8117044C5400D489DB /* Supporting Files */,
+			);
+			path = SFToolKit;
+			sourceTree = "<group>";
+		};
+		226F3B8117044C5400D489DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				226F3B8217044C5400D489DB /* SFToolKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		226F3B9517044C5400D489DB /* SFToolKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				226F3B9B17044C5400D489DB /* SFToolKitTests.h */,
+				226F3B9C17044C5400D489DB /* SFToolKitTests.m */,
+				226F3B9617044C5400D489DB /* Supporting Files */,
+			);
+			path = SFToolKitTests;
+			sourceTree = "<group>";
+		};
+		226F3B9617044C5400D489DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				226F3B9717044C5400D489DB /* SFToolKitTests-Info.plist */,
+				226F3B9817044C5400D489DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226F3B7A17044C5400D489DB /* SFToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226F3BA017044C5400D489DB /* Build configuration list for PBXNativeTarget "SFToolKit" */;
+			buildPhases = (
+				226F3B7717044C5400D489DB /* Sources */,
+				226F3B7817044C5400D489DB /* Frameworks */,
+				226F3B7917044C5400D489DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFToolKit;
+			productName = SFToolKit;
+			productReference = 226F3B7B17044C5400D489DB /* libSFToolKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		226F3B8B17044C5400D489DB /* SFToolKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226F3BA317044C5400D489DB /* Build configuration list for PBXNativeTarget "SFToolKitTests" */;
+			buildPhases = (
+				226F3B8717044C5400D489DB /* Sources */,
+				226F3B8817044C5400D489DB /* Frameworks */,
+				226F3B8917044C5400D489DB /* Resources */,
+				226F3B8A17044C5400D489DB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226F3B9317044C5400D489DB /* PBXTargetDependency */,
+			);
+			name = SFToolKitTests;
+			productName = SFToolKitTests;
+			productReference = 226F3B8C17044C5400D489DB /* SFToolKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226F3B7317044C5400D489DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = superflomo;
+			};
+			buildConfigurationList = 226F3B7617044C5400D489DB /* Build configuration list for PBXProject "SFToolKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 226F3B7217044C5400D489DB;
+			productRefGroup = 226F3B7C17044C5400D489DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226F3B7A17044C5400D489DB /* SFToolKit */,
+				226F3B8B17044C5400D489DB /* SFToolKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		226F3B8917044C5400D489DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226F3B9A17044C5400D489DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		226F3B8A17044C5400D489DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		226F3B7717044C5400D489DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226F3B8717044C5400D489DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226F3B9D17044C5400D489DB /* SFToolKitTests.m in Sources */,
+				22F5E08D17044C7E005D948C /* SFMD5Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		226F3B9317044C5400D489DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226F3B7A17044C5400D489DB /* SFToolKit */;
+			targetProxy = 226F3B9217044C5400D489DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		226F3B9817044C5400D489DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226F3B9917044C5400D489DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		226F3B9E17044C5400D489DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		226F3B9F17044C5400D489DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		226F3BA117044C5400D489DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SFToolKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFToolKit/SFToolKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		226F3BA217044C5400D489DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SFToolKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFToolKit/SFToolKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		226F3BA417044C5400D489DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFToolKit/SFToolKit-Prefix.pch";
+				INFOPLIST_FILE = "SFToolKitTests/SFToolKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		226F3BA517044C5400D489DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFToolKit/SFToolKit-Prefix.pch";
+				INFOPLIST_FILE = "SFToolKitTests/SFToolKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226F3B7617044C5400D489DB /* Build configuration list for PBXProject "SFToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226F3B9E17044C5400D489DB /* Debug */,
+				226F3B9F17044C5400D489DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226F3BA017044C5400D489DB /* Build configuration list for PBXNativeTarget "SFToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226F3BA117044C5400D489DB /* Debug */,
+				226F3BA217044C5400D489DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226F3BA317044C5400D489DB /* Build configuration list for PBXNativeTarget "SFToolKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226F3BA417044C5400D489DB /* Debug */,
+				226F3BA517044C5400D489DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 226F3B7317044C5400D489DB /* Project object */;
+}

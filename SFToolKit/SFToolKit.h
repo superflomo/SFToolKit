@@ -1,0 +1,9 @@
+//
+//  SFToolKit.h
+//  SFToolKit
+//
+//  Created by Florian Bürger on 28.03.13.
+//  Copyright (c) 2013 superflomo. All rights reserved.
+//
+
+#import "SFMD5Utilities.h"
