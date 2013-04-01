@@ -8,4 +8,3 @@
 
 #import "SFMD5Utilities.h"
 #import "NSFileManager+Directories.h"
-#import "SFTTYLogFormatter.h"
