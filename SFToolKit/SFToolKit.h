@@ -6,6 +6,6 @@
 //  Copyright (c) 2013 superflomo. All rights reserved.
 //
 
-#import "SFMD5Utilities.h"
-#import "NSFileManager+Directories.h"
-#import "SFTTYLogFormatter.h"
+#import <SFToolKit/SFMD5Utilities.h>
+#import <SFToolKit/NSFileManager+Directories.h>
+#import <SFToolKit/SFTTYLogFormatter.h>
