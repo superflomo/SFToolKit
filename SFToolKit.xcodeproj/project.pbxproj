@@ -15,6 +15,7 @@
 		226F3B9417044C5400D489DB /* libSFToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7B17044C5400D489DB /* libSFToolKit.a */; };
 		226F3B9A17044C5400D489DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 226F3B9817044C5400D489DB /* InfoPlist.strings */; };
 		226F3B9D17044C5400D489DB /* SFToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226F3B9C17044C5400D489DB /* SFToolKitTests.m */; };
+		22B8D69A1709D74C001B2770 /* SFTTYLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B8D6991709D74C001B2770 /* SFTTYLogFormatter.m */; };
 		22F5E08D17044C7E005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
 		22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
 		97DFCFE1170457A8004C33B6 /* NSFileManager+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DFCFE0170457A8004C33B6 /* NSFileManager+Directories.m */; };
@@ -57,6 +58,8 @@
 		226F3B9917044C5400D489DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		226F3B9B17044C5400D489DB /* SFToolKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFToolKitTests.h; sourceTree = "<group>"; };
 		226F3B9C17044C5400D489DB /* SFToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFToolKitTests.m; sourceTree = "<group>"; };
+		22B8D6981709D74C001B2770 /* SFTTYLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTTYLogFormatter.h; sourceTree = "<group>"; };
+		22B8D6991709D74C001B2770 /* SFTTYLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTTYLogFormatter.m; sourceTree = "<group>"; };
 		22F5E08B17044C7E005D948C /* SFMD5Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMD5Utilities.h; sourceTree = "<group>"; };
 		22F5E08C17044C7E005D948C /* SFMD5Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMD5Utilities.m; sourceTree = "<group>"; };
 		97DFCFDF170457A8004C33B6 /* NSFileManager+Directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Directories.h"; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				22F5E08B17044C7E005D948C /* SFMD5Utilities.h */,
 				22F5E08C17044C7E005D948C /* SFMD5Utilities.m */,
 				226F3B8117044C5400D489DB /* Supporting Files */,
+				22B8D6981709D74C001B2770 /* SFTTYLogFormatter.h */,
+				22B8D6991709D74C001B2770 /* SFTTYLogFormatter.m */,
 			);
 			path = SFToolKit;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			files = (
 				22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */,
 				97DFCFE1170457A8004C33B6 /* NSFileManager+Directories.m in Sources */,
+				22B8D69A1709D74C001B2770 /* SFTTYLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
