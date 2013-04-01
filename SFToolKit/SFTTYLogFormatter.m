@@ -12,7 +12,7 @@
 // This class is supposed to be used along with cocoa-lumberjack via cocoapods
 #import <CococaLumberjack/DDLog.h>
 
-@interface SFTTYLogFormatter () <DDLogFormatter>
+@interface SFTTYLogFormatter ()
 @property NSDateFormatter *dateFormatter;
 @end
 
@@ -59,6 +59,6 @@
     return logString;
 }
 
-#endif /* ifdef LOG_VERBOSE */
+#endif	/* ifdef LOG_VERBOSE */
 
 @end

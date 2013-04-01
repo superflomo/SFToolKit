@@ -8,5 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#ifdef LOG_VERBOSE
+@interface SFTTYLogFormatter : NSObject <DDLogFormatter>
+#else
 @interface SFTTYLogFormatter : NSObject
+#endif
 @end
