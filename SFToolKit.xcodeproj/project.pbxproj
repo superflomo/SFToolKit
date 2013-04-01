@@ -16,6 +16,7 @@
 		226F3B9A17044C5400D489DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 226F3B9817044C5400D489DB /* InfoPlist.strings */; };
 		226F3B9D17044C5400D489DB /* SFToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226F3B9C17044C5400D489DB /* SFToolKitTests.m */; };
 		22B8D69A1709D74C001B2770 /* SFTTYLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B8D6991709D74C001B2770 /* SFTTYLogFormatter.m */; };
+		22B8D69B1709DA5B001B2770 /* SFTTYLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B8D6991709D74C001B2770 /* SFTTYLogFormatter.m */; };
 		22F5E08D17044C7E005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
 		22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
 		97DFCFE1170457A8004C33B6 /* NSFileManager+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DFCFE0170457A8004C33B6 /* NSFileManager+Directories.m */; };
@@ -278,6 +279,7 @@
 			files = (
 				226F3B9D17044C5400D489DB /* SFToolKitTests.m in Sources */,
 				22F5E08D17044C7E005D948C /* SFMD5Utilities.m in Sources */,
+				22B8D69B1709DA5B001B2770 /* SFTTYLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
