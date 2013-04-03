@@ -7,3 +7,4 @@
 //
 
 #import "SFMD5Utilities.h"
+#import "NSFileManager+Directories.h"
