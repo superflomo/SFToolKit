@@ -8,3 +8,4 @@
 
 #import "SFMD5Utilities.h"
 #import "NSFileManager+Directories.h"
+#import "UIColor+RGB.h"
