@@ -12,4 +12,4 @@
 
 BOOL SFIsEmpty(id obj);
 
-BOOL SFStringIsEmpty(NSString *s);
+BOOL SFIsEmptyString(NSString *s);
