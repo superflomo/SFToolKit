@@ -9,3 +9,7 @@
 #import "SFMD5Utilities.h"
 #import "NSFileManager+Directories.h"
 #import "UIColor+RGB.h"
+
+BOOL SFIsEmpty(id obj);
+
+BOOL SFStringIsEmpty(NSString *s);
