@@ -9,6 +9,8 @@
 #import "SFMD5Utilities.h"
 #import "NSFileManager+Directories.h"
 #import "UIColor+RGB.h"
+#import "NSString+SFToolKitAdditions.h"
+#import "SFBaseViewController.h"
 
 BOOL SFIsEmpty(id obj);
 
