@@ -27,7 +27,7 @@
 
 + (BOOL)_isXibWithName:(NSString *)xibName inBundle:(NSBundle *)bundle;
 {
-	if ([bundle pathForResource:xibName ofType:@"xib"] == nil) {
+	if ([bundle pathForResource:xibName ofType:@"nib"] == nil) {
 		return NO;
 	}
     
