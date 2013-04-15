@@ -11,6 +11,7 @@
 #import "UIColor+RGB.h"
 #import "NSString+SFToolKitAdditions.h"
 #import "SFBaseViewController.h"
+#import "NSArray+SFToolKitAdditions.h"
 
 BOOL SFIsEmpty(id obj);
 
