@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222ED1FB1729525D00583E44 /* SFBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */; };
 		226F3B7F17044C5400D489DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7E17044C5400D489DB /* Foundation.framework */; };
 		226F3B8417044C5400D489DB /* SFToolKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 226F3B8317044C5400D489DB /* SFToolKit.h */; };
 		226F3B8E17044C5400D489DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B8D17044C5400D489DB /* SenTestingKit.framework */; };
@@ -54,6 +55,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		222ED1F91729525D00583E44 /* SFBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseTableViewController.h; sourceTree = "<group>"; };
+		222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBaseTableViewController.m; sourceTree = "<group>"; };
 		226F3B7B17044C5400D489DB /* libSFToolKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSFToolKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		226F3B7E17044C5400D489DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		226F3B8217044C5400D489DB /* SFToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFToolKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 				22FE2F2F171C05FD001D4449 /* NSString+SFToolKitAdditions.m */,
 				22FF6A64171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.h */,
 				22FF6A65171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m */,
+				222ED1F91729525D00583E44 /* SFBaseTableViewController.h */,
+				222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */,
 			);
 			path = SFToolKit;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 				22FE2F2D171C017B001D4449 /* SFBaseViewController.m in Sources */,
 				22FE2F30171C05FD001D4449 /* NSString+SFToolKitAdditions.m in Sources */,
 				22FF6A66171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m in Sources */,
+				222ED1FB1729525D00583E44 /* SFBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

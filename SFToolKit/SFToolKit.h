@@ -12,6 +12,7 @@
 #import "NSString+SFToolKitAdditions.h"
 #import "SFBaseViewController.h"
 #import "NSArray+SFToolKitAdditions.h"
+#import "SFBaseTableViewController.h"
 
 BOOL SFIsEmpty(id obj);
 
