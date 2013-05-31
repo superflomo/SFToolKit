@@ -69,6 +69,8 @@
 		226F3B8F17044C5400D489DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		226F3B9717044C5400D489DB /* SFToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFToolKitTests-Info.plist"; sourceTree = "<group>"; };
 		226F3B9917044C5400D489DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22999E9D1758FBA8009812E2 /* SFAssert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAssert.h; sourceTree = "<group>"; };
+		22999E9E1758FC4A009812E2 /* SFUIKitMainThreadGuard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFUIKitMainThreadGuard.h; sourceTree = "<group>"; };
 		22F5E08B17044C7E005D948C /* SFMD5Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMD5Utilities.h; sourceTree = "<group>"; };
 		22F5E08C17044C7E005D948C /* SFMD5Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMD5Utilities.m; sourceTree = "<group>"; };
 		22FE2F2B171C017B001D4449 /* SFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseViewController.h; sourceTree = "<group>"; };
@@ -153,6 +155,8 @@
 				97566419170C806300767C0F /* UIColor Additions */,
 				97DFCFDE17045786004C33B6 /* Directory Utilities */,
 				226F3B8317044C5400D489DB /* SFToolKit.h */,
+				22999E9D1758FBA8009812E2 /* SFAssert.h */,
+				22999E9E1758FC4A009812E2 /* SFUIKitMainThreadGuard.h */,
 				22FE302F1716EB1B00634092 /* SFToolKit.m */,
 				22F5E08B17044C7E005D948C /* SFMD5Utilities.h */,
 				22F5E08C17044C7E005D948C /* SFMD5Utilities.m */,

@@ -14,6 +14,7 @@
 #import "NSArray+SFToolKitAdditions.h"
 #import "SFBaseTableViewController.h"
 #import "SFNavigationController.h"
+#import "SFAssert.h"
 
 // -------------------------------------
 #pragma mark - Utility Functions
