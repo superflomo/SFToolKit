@@ -15,6 +15,7 @@
 #import "SFBaseTableViewController.h"
 #import "SFNavigationController.h"
 #import "SFAssert.h"
+#import "SFUIKitMainThreadGuard.h"
 
 // -------------------------------------
 #pragma mark - Utility Functions
