@@ -30,7 +30,7 @@ static void SFSwizzleMethod(Class c, SEL orig, SEL new) {
     }
 }
 
-void SFReplaceMethod(Class c, SEL orig, SEL newSel, IMP impl) {
+static void SFReplaceMethod(Class c, SEL orig, SEL newSel, IMP impl) {
     Method method = class_getInstanceMethod(c, orig);
     if (!class_addMethod(c, newSel, impl, method_getTypeEncoding(method))) {
         NSLog(@"Failed to add method: %@ on %@", NSStringFromSelector(newSel), c);
