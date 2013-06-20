@@ -13,6 +13,7 @@
 static char kSFIncreadesTouchAreaKey;
 
 @implementation UIButton (IncreasedTouchArea)
+@dynamic sf_hitTestEdgeInsets;
 
 #pragma mark - Swizzling
 
