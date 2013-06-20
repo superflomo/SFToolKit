@@ -16,6 +16,8 @@
 #import "SFNavigationController.h"
 #import "SFAssert.h"
 #import "SFUIKitMainThreadGuard.h"
+#import "SFSwizzle.h"
+#import "UIButton+IncreasedTouchArea.h"
 
 // -------------------------------------
 #pragma mark - Utility Functions
