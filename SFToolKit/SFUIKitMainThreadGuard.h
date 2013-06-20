@@ -10,6 +10,8 @@
 #import <objc/message.h>
 #import <QuartzCore/QuartzCore.h>
 
+#import "SFSwizzle.h"
+
 #ifndef SFToolKit_SFUIKitMainThreadGuard_h
 #define SFToolKit_SFUIKitMainThreadGuard_h
 
@@ -19,23 +21,6 @@
 // https://gist.github.com/steipete/5664345
 
 #ifdef DEBUG
-
-static void SFSwizzleMethod(Class c, SEL orig, SEL new) {
-    Method origMethod = class_getInstanceMethod(c, orig);
-    Method newMethod = class_getInstanceMethod(c, new);
-    if (class_addMethod(c, orig, method_getImplementation(newMethod), method_getTypeEncoding(newMethod))) {
-        class_replaceMethod(c, new, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
-    }else {
-        method_exchangeImplementations(origMethod, newMethod);
-    }
-}
-
-static void SFReplaceMethod(Class c, SEL orig, SEL newSel, IMP impl) {
-    Method method = class_getInstanceMethod(c, orig);
-    if (!class_addMethod(c, newSel, impl, method_getTypeEncoding(method))) {
-        NSLog(@"Failed to add method: %@ on %@", NSStringFromSelector(newSel), c);
-    }else SFSwizzleMethod(c, orig, newSel);
-}
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Tracks down calls to UIKit from a Thread other than Main
