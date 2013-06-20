@@ -8,6 +8,7 @@
 
 #import "UIButton+IncreasedTouchArea.h"
 #import "SFSwizzle.h"
+#import <objc/runtime.h>
 
 static char kSFIncreadesTouchAreaKey;
 

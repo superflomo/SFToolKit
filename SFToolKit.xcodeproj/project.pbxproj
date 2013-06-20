@@ -60,7 +60,8 @@
 /* Begin PBXFileReference section */
 		17037A531773013D00EEA0B1 /* UIButton+IncreasedTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+IncreasedTouchArea.h"; sourceTree = "<group>"; };
 		17037A541773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+IncreasedTouchArea.m"; sourceTree = "<group>"; };
-		17037A561773043600EEA0B1 /* SFSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSwizzle.h; sourceTree = "<group>"; };
+		17037A561773043600EEA0B1 /* SFSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSwizzle.m; sourceTree = "<group>"; };
+		17037A5717730C7000EEA0B1 /* SFSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSwizzle.h; sourceTree = "<group>"; };
 		2209B4F217297D2A00769949 /* SFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNavigationController.h; sourceTree = "<group>"; };
 		2209B4F317297D2A00769949 /* SFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNavigationController.m; sourceTree = "<group>"; };
 		222ED1F91729525D00583E44 /* SFBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseTableViewController.h; sourceTree = "<group>"; };
@@ -175,9 +176,9 @@
 				97566419170C806300767C0F /* UIColor Additions */,
 				97DFCFDE17045786004C33B6 /* Directory Utilities */,
 				226F3B8317044C5400D489DB /* SFToolKit.h */,
+				22FE302F1716EB1B00634092 /* SFToolKit.m */,
 				22999E9D1758FBA8009812E2 /* SFAssert.h */,
 				22999E9E1758FC4A009812E2 /* SFUIKitMainThreadGuard.h */,
-				22FE302F1716EB1B00634092 /* SFToolKit.m */,
 				22F5E08B17044C7E005D948C /* SFMD5Utilities.h */,
 				22F5E08C17044C7E005D948C /* SFMD5Utilities.m */,
 				226F3B8117044C5400D489DB /* Supporting Files */,
@@ -191,7 +192,8 @@
 				2209B4F217297D2A00769949 /* SFNavigationController.h */,
 				2209B4F317297D2A00769949 /* SFNavigationController.m */,
 				222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */,
-				17037A561773043600EEA0B1 /* SFSwizzle.h */,
+				17037A5717730C7000EEA0B1 /* SFSwizzle.h */,
+				17037A561773043600EEA0B1 /* SFSwizzle.m */,
 			);
 			path = SFToolKit;
 			sourceTree = "<group>";
