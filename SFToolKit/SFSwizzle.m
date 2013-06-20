@@ -11,7 +11,7 @@
 
 // http://www.mikeash.com/pyblog/friday-qa-2010-01-29-method-replacement-for-fun-and-profit.html
 
-static void SFSwizzleMethod(Class c, SEL orig, SEL new) {
+void SFSwizzleMethod(Class c, SEL orig, SEL new) {
     Method origMethod = class_getInstanceMethod(c, orig);
     Method newMethod = class_getInstanceMethod(c, new);
     if (class_addMethod(c, orig, method_getImplementation(newMethod), method_getTypeEncoding(newMethod))) {
@@ -27,5 +27,3 @@ void SFReplaceMethod(Class c, SEL orig, SEL newSel, IMP impl) {
         NSLog(@"Failed to add method: %@ on %@", NSStringFromSelector(newSel), c);
     } else SFSwizzleMethod(c, orig, newSel);
 }
-
-#endif
