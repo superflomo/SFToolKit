@@ -1,5 +1,3 @@
-Pods
-Podfile.lock
 # OS X Finder
 .DS_Store
 
@@ -22,4 +20,3 @@ build/
 *~
 *.dat
 *.dep
-# Cocoapods
