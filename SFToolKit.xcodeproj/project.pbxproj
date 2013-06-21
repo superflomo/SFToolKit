@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0AA50349A362448B8ED084B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC852CB818D646DB96349F94 /* libPods.a */; };
 		17037A551773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 17037A541773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m */; };
+		17C668D41774662A000C96D5 /* SFLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C668D31774662A000C96D5 /* SFLogFormatter.m */; };
+		17C668D7177466E1000C96D5 /* SFBaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C668D6177466E1000C96D5 /* SFBaseAppDelegate.m */; };
 		2209B4F417297D2A00769949 /* SFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2209B4F317297D2A00769949 /* SFNavigationController.m */; };
 		222ED1FB1729525D00583E44 /* SFBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */; };
 		226F3B7F17044C5400D489DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7E17044C5400D489DB /* Foundation.framework */; };
@@ -62,6 +64,10 @@
 		17037A541773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+IncreasedTouchArea.m"; sourceTree = "<group>"; };
 		17037A561773043600EEA0B1 /* SFSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSwizzle.m; sourceTree = "<group>"; };
 		17037A5717730C7000EEA0B1 /* SFSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSwizzle.h; sourceTree = "<group>"; };
+		17C668D21774662A000C96D5 /* SFLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLogFormatter.h; sourceTree = "<group>"; };
+		17C668D31774662A000C96D5 /* SFLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLogFormatter.m; sourceTree = "<group>"; };
+		17C668D5177466E1000C96D5 /* SFBaseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseAppDelegate.h; sourceTree = "<group>"; };
+		17C668D6177466E1000C96D5 /* SFBaseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBaseAppDelegate.m; sourceTree = "<group>"; };
 		2209B4F217297D2A00769949 /* SFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNavigationController.h; sourceTree = "<group>"; };
 		2209B4F317297D2A00769949 /* SFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNavigationController.m; sourceTree = "<group>"; };
 		222ED1F91729525D00583E44 /* SFBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseTableViewController.h; sourceTree = "<group>"; };
@@ -133,6 +139,15 @@
 			name = "UIButton Additions";
 			sourceTree = "<group>";
 		};
+		17C668D117746614000C96D5 /* Cocoa Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				17C668D21774662A000C96D5 /* SFLogFormatter.h */,
+				17C668D31774662A000C96D5 /* SFLogFormatter.m */,
+			);
+			name = "Cocoa Lumberjack";
+			sourceTree = "<group>";
+		};
 		226F3B7217044C5400D489DB = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +187,7 @@
 		226F3B8017044C5400D489DB /* SFToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				17C668D117746614000C96D5 /* Cocoa Lumberjack */,
 				17037A521773011800EEA0B1 /* UIButton Additions */,
 				97566419170C806300767C0F /* UIColor Additions */,
 				97DFCFDE17045786004C33B6 /* Directory Utilities */,
@@ -194,6 +210,8 @@
 				222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */,
 				17037A5717730C7000EEA0B1 /* SFSwizzle.h */,
 				17037A561773043600EEA0B1 /* SFSwizzle.m */,
+				17C668D5177466E1000C96D5 /* SFBaseAppDelegate.h */,
+				17C668D6177466E1000C96D5 /* SFBaseAppDelegate.m */,
 			);
 			path = SFToolKit;
 			sourceTree = "<group>";
@@ -422,9 +440,11 @@
 				22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */,
 				97DFCFE1170457A8004C33B6 /* NSFileManager+Directories.m in Sources */,
 				22FE30301716EB1B00634092 /* SFToolKit.m in Sources */,
+				17C668D41774662A000C96D5 /* SFLogFormatter.m in Sources */,
 				22FE2F2D171C017B001D4449 /* SFBaseViewController.m in Sources */,
 				22FE2F30171C05FD001D4449 /* NSString+SFToolKitAdditions.m in Sources */,
 				22FF6A66171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m in Sources */,
+				17C668D7177466E1000C96D5 /* SFBaseAppDelegate.m in Sources */,
 				222ED1FB1729525D00583E44 /* SFBaseTableViewController.m in Sources */,
 				2209B4F417297D2A00769949 /* SFNavigationController.m in Sources */,
 			);
