@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'SFToolKit'
   s.requires_arc = true
 
+  s.dependency 'CocoaLumberjack'
+
 end
