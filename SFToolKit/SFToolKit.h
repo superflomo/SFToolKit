@@ -18,6 +18,7 @@
 #import "SFUIKitMainThreadGuard.h"
 #import "SFSwizzle.h"
 #import "UIButton+IncreasedTouchArea.h"
+#import "SFBaseAppDelegate.h"
 
 // -------------------------------------
 #pragma mark - Utility Functions
