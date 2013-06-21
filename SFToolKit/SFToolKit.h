@@ -20,6 +20,8 @@
 #import "UIButton+IncreasedTouchArea.h"
 #import "SFBaseAppDelegate.h"
 
+#import <CocoaLumberjack/DDLog.h>
+
 // -------------------------------------
 #pragma mark - Utility Functions
 // -------------------------------------
