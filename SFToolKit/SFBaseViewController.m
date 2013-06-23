@@ -23,13 +23,14 @@
 
 + (NSString *)defaultNibName
 {
-	NSString *nibName;
+    NSBundle *mainBundle = [NSBundle mainBundle];
+	NSString *xibName;
 	NSString *className = NSStringFromClass(self);
 
-	nibName = [className stringByReplacingOccurrencesOfString:@"Controller" withString:@""];
+	xibName = [className stringByReplacingOccurrencesOfString:@"Controller" withString:@""];
 
-    if ([self isXibWithName:nibName inBundle:[NSBundle mainBundle]]) {
-        return nibName;
+    if ([self isXibWithName:xibName inBundle:mainBundle]) {
+        return xibName;
     }
 
     NSString *deviceSuffix;
@@ -39,9 +40,16 @@
         deviceSuffix = @"_iPad";
     }
 
-    nibName = [nibName stringByAppendingString:deviceSuffix];
+    xibName = [xibName stringByAppendingString:deviceSuffix];
+    if ([self isXibWithName:xibName inBundle:mainBundle]) {
+        return xibName;
+    }
 
-    return nibName;
+    if ([[self superclass] respondsToSelector:@selector(defaultNibName)]) {
+        return [[self superclass] defaultNibName];
+    }
+
+    return nil;
 }
 
 - (NSString *)defaultNibName
