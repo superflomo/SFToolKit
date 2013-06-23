@@ -8,9 +8,10 @@
 
 #import "SFBaseViewController.h"
 #import "NSString+SFToolKitAdditions.h"
+#import "SFEmptiness.h"
 
 @interface SFBaseViewController ()
-+ (BOOL)_isXibWithName:(NSString *)xibName inBundle:(NSBundle *)bundle;
++ (BOOL)isXibWithName:(NSString *)xibName inBundle:(NSBundle *)bundle;
 @end
 
 @implementation SFBaseViewController
@@ -22,22 +23,41 @@
 
 + (NSString *)defaultNibName
 {
-	return [self defaultNibNameInBundle:[NSBundle mainBundle]];
-}
+    NSBundle *mainBundle = [NSBundle mainBundle];
+	NSString *xibName;
+	NSString *className = NSStringFromClass(self);
 
-+ (BOOL)_isXibWithName:(NSString *)xibName inBundle:(NSBundle *)bundle;
-{
-	if ([bundle pathForResource:xibName ofType:@"nib"] == nil) {
-		return NO;
-	}
-    
-	return YES;
+	xibName = [className stringByReplacingOccurrencesOfString:@"Controller" withString:@""];
+
+    if ([self isXibWithName:xibName inBundle:mainBundle]) {
+        return xibName;
+    }
+
+    NSString *deviceSuffix;
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        deviceSuffix = @"_iPhone";
+    } else {
+        deviceSuffix = @"_iPad";
+    }
+
+    xibName = [xibName stringByAppendingString:deviceSuffix];
+    if ([self isXibWithName:xibName inBundle:mainBundle]) {
+        return xibName;
+    }
+
+    if ([[self superclass] respondsToSelector:@selector(defaultNibName)]) {
+        return [[self superclass] defaultNibName];
+    }
+
+    return nil;
 }
 
 - (NSString *)defaultNibName
 {
 	return [[self class] defaultNibName];
 }
+
+#pragma mark - Initializer
 
 - (id)init
 {
@@ -46,44 +66,37 @@
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
-	if ((self = [super initWithCoder:aDecoder])) {
-		[self commonSFBaseViewControllerInit];
+    self = [super initWithCoder:aDecoder];
+	if (!self) {
+        return nil;
 	}
-    
+
+    [self commonSFBaseViewControllerInit];
+
 	return self;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-	if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-		[self commonSFBaseViewControllerInit];
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+	if (!self) {
+        return nil;
 	}
     
+    [self commonSFBaseViewControllerInit];
+
 	return self;
 }
 
-@end
+#pragma mark - Private
 
-@implementation SFBaseViewController (UnitTests)
-
-+ (NSString *)defaultNibNameInBundle:(NSBundle *)bundle
++ (BOOL)isXibWithName:(NSString *)xibName inBundle:(NSBundle *)bundle;
 {
-	NSString *nibName;
-	NSString *className = NSStringFromClass(self);
-    
-	nibName = [className stringByReplacingOccurrencesOfString:@"Controller" withString:@""];
-    
-	if ([self _isXibWithName:nibName inBundle:bundle] == NO) {
-		NSString *reason = [NSString stringWithFormat:@"xib with name %@ not found for class %@", nibName, className];
-		@throw [NSException exceptionWithName:NSInternalInconsistencyException reason:reason userInfo:nil];
+	if ([bundle pathForResource:xibName ofType:@"nib"] == nil) {
+		return NO;
 	}
-    
-	return nibName;
-}
 
-- (NSString *)defaultNibNameInBundle:(NSBundle *)bundle;
-{
-	return [[self class] defaultNibNameInBundle:bundle];
+	return YES;
 }
 
 @end

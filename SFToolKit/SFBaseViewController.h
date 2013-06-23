@@ -33,10 +33,3 @@
 
 
 @end
-
-@interface SFBaseViewController (UnitTests)
-
-+ (NSString *)defaultNibNameInBundle:(NSBundle *)bundle;
-- (NSString *)defaultNibNameInBundle:(NSBundle *)bundle;
-
-@end
