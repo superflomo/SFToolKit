@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Florian Buerger' => 'flo@superflomo.com', 'Moritz Haarmann' => 'mo@superflomo.com' }
 
   s.license      = 'MIT'
-  s.source       = { :git => 'git@github.com:superflomo/SFToolKit.git', :tag => '0.2.1' }
+  s.source       = { :git => 'git@github.com:superflomo/SFToolKit.git', :tag => '0.2.2' }
 
   s.platform     = :ios, '6.0'
   s.source_files = 'SFToolKit/*.{h,m}'
