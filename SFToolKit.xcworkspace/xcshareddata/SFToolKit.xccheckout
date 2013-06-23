@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>649866EA-CA89-4D5E-A7ED-55418AEEE862</string>
+	<string>9C115BD9-4A97-4CF2-A702-D150DDBEF9D0</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SFToolKit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FA56AFDB-31F7-44B4-BAC5-88362C8E3CDB</key>
-		<string>ssh://bitbucket.org/superflomo/sftoolkit.git</string>
+		<key>CC2480DD-FB61-4A51-9F89-21D5D5210DE7</key>
+		<string>ssh://github.com/superflomo/SFToolKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SFToolKit.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FA56AFDB-31F7-44B4-BAC5-88362C8E3CDB</key>
+		<key>CC2480DD-FB61-4A51-9F89-21D5D5210DE7</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://bitbucket.org/superflomo/sftoolkit.git</string>
+	<string>ssh://github.com/superflomo/SFToolKit.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FA56AFDB-31F7-44B4-BAC5-88362C8E3CDB</string>
+	<string>CC2480DD-FB61-4A51-9F89-21D5D5210DE7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FA56AFDB-31F7-44B4-BAC5-88362C8E3CDB</string>
+			<string>CC2480DD-FB61-4A51-9F89-21D5D5210DE7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SFToolKit</string>
 		</dict>

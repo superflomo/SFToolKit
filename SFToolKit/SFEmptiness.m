@@ -1,12 +1,14 @@
 //
-//  SFToolKit.m
+//  SFAssert.h
 //  SFToolKit
 //
-//  Created by Florian Bürger on 28.03.13.
+//  Created by Florian Bürger on 31.05.13.
 //  Copyright (c) 2013 superflomo. All rights reserved.
 //
 
-#import "SFToolKit.h"
+// thanks to Brent Simmons: http://inessential.com/2012/07/28/emptiness
+
+#import "SFEmptiness.h"
 
 BOOL SFIsEmpty(id obj)
 {
@@ -17,3 +19,4 @@ BOOL SFIsEmptyString(NSString *s)
 {
 	return s == nil || (id)s == (id)[NSNull null] || [s length] == 0;
 }
+

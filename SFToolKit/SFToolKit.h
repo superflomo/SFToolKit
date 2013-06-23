@@ -19,30 +19,9 @@
 #import "SFSwizzle.h"
 #import "UIButton+IncreasedTouchArea.h"
 #import "SFBaseAppDelegate.h"
+#import "SFEmptiness.h"
 
 #import <CocoaLumberjack/DDLog.h>
-
-// -------------------------------------
-#pragma mark - Utility Functions
-// -------------------------------------
-
-// Check if an object is empty
-// no matter what type it is
-//
-// works for objects responding to
-//
-// -length
-// -count
-//
-// as well for nil / NSNUll
-BOOL SFIsEmpty(id obj);
-// Faster function for strings
-//
-// Checks agains
-// -length
-// NSNull
-// nil
-BOOL SFIsEmptyString(NSString *s);
 
 // -------------------------------------
 #pragma mark - Macros & Preprocessor
