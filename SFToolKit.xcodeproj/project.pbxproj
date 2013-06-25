@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0AA50349A362448B8ED084B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC852CB818D646DB96349F94 /* libPods.a */; };
+		170005691779C84E004FF244 /* UIDevice+SFDeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 170005681779C84E004FF244 /* UIDevice+SFDeviceInformation.m */; };
 		17037A551773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 17037A541773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m */; };
 		174B8DCA1777235F00F8FA83 /* SFEmptiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 174B8DC91777235F00F8FA83 /* SFEmptiness.m */; };
 		174B8DCB1777235F00F8FA83 /* SFEmptiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 174B8DC91777235F00F8FA83 /* SFEmptiness.m */; };
@@ -61,6 +62,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		170005671779C84E004FF244 /* UIDevice+SFDeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SFDeviceInformation.h"; sourceTree = "<group>"; };
+		170005681779C84E004FF244 /* UIDevice+SFDeviceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SFDeviceInformation.m"; sourceTree = "<group>"; };
+		1700056A1779CACB004FF244 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1700056B1779CAD3004FF244 /* SFToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = SFToolKit.podspec; sourceTree = "<group>"; };
 		17037A531773013D00EEA0B1 /* UIButton+IncreasedTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+IncreasedTouchArea.h"; sourceTree = "<group>"; };
 		17037A541773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+IncreasedTouchArea.m"; sourceTree = "<group>"; };
 		17037A561773043600EEA0B1 /* SFSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSwizzle.m; sourceTree = "<group>"; };
@@ -155,6 +160,8 @@
 		226F3B7217044C5400D489DB = {
 			isa = PBXGroup;
 			children = (
+				1700056A1779CACB004FF244 /* Podfile */,
+				1700056B1779CAD3004FF244 /* SFToolKit.podspec */,
 				226F3B8017044C5400D489DB /* SFToolKit */,
 				226F3B9517044C5400D489DB /* SFToolKitTests */,
 				226F3B7D17044C5400D489DB /* Frameworks */,
@@ -196,6 +203,8 @@
 				97566419170C806300767C0F /* UIColor Additions */,
 				97DFCFDE17045786004C33B6 /* Directory Utilities */,
 				226F3B8317044C5400D489DB /* SFToolKit.h */,
+				170005671779C84E004FF244 /* UIDevice+SFDeviceInformation.h */,
+				170005681779C84E004FF244 /* UIDevice+SFDeviceInformation.m */,
 				22999E9D1758FBA8009812E2 /* SFAssert.h */,
 				174B8DC71777232600F8FA83 /* SFEmptiness.h */,
 				174B8DC91777235F00F8FA83 /* SFEmptiness.m */,
@@ -446,6 +455,7 @@
 				17037A551773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m in Sources */,
 				22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */,
 				97DFCFE1170457A8004C33B6 /* NSFileManager+Directories.m in Sources */,
+				170005691779C84E004FF244 /* UIDevice+SFDeviceInformation.m in Sources */,
 				17C668D41774662A000C96D5 /* SFLogFormatter.m in Sources */,
 				174B8DCA1777235F00F8FA83 /* SFEmptiness.m in Sources */,
 				22FE2F2D171C017B001D4449 /* SFBaseViewController.m in Sources */,
