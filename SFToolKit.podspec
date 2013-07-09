@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = 'SFToolKit'
-  s.version      = '0.2.3'
+  s.version      = '0.2.4'
   s.summary      = 'Collection of useful cocoa classes & categories.'
   s.homepage     = 'https://github.com/superflomo/SFToolKit'
   s.author       = { 'Florian Buerger' => 'flo@superflomo.com', 'Moritz Haarmann' => 'mo@superflomo.com' }
 
   s.license      = 'MIT'
-  s.source       = { :git => 'https://github.com/superflomo/SFToolKit.git', :tag => '0.2.3' }
+  s.source       = { :git => 'https://github.com/superflomo/SFToolKit.git', :tag => s.version.to_s }
 
   s.platform     = :ios, '6.0'
   s.source_files = 'SFToolKit/*.{h,m}'
