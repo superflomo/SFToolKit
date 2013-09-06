@@ -27,21 +27,15 @@
 	return self;
 }
 
-- (NSString *)formatLogMessage:(DDLogMessage *)logMessage {
+- (NSString *)formatLogMessage:(DDLogMessage *)logMessage
+{
 	NSString *logLevel;
 
 	switch (logMessage->logFlag) {
-		case LOG_FLAG_ERROR:
-			logLevel = @"ERROR\t"; break;
-
-		case LOG_FLAG_WARN:
-			logLevel = @"WARNING\t"; break;
-
-		case LOG_FLAG_INFO:
-			logLevel = @"INFO\t"; break;
-
-		default:
-			logLevel = @""; break;
+		case LOG_FLAG_ERROR:    logLevel = @"ERR \t"; break;
+		case LOG_FLAG_WARN:     logLevel = @"WARN\t"; break;
+		case LOG_FLAG_INFO:     logLevel = @"INFO\t"; break;
+		default:                logLevel = @"    \t"; break;
 	}
 
 	NSString *dateAndTime = [_dateFormatter stringFromDate:logMessage->timestamp];
