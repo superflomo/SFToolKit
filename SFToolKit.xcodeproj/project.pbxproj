@@ -152,6 +152,15 @@
 			name = "Cocoa Lumberjack";
 			sourceTree = "<group>";
 		};
+		17DAE80A17D9E71F00F0B67F /* UIDevice Additions */ = {
+			isa = PBXGroup;
+			children = (
+				170005671779C84E004FF244 /* UIDevice+SFDeviceInformation.h */,
+				170005681779C84E004FF244 /* UIDevice+SFDeviceInformation.m */,
+			);
+			name = "UIDevice Additions";
+			sourceTree = "<group>";
+		};
 		226F3B7217044C5400D489DB = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +205,7 @@
 				97566419170C806300767C0F /* UIColor Additions */,
 				97DFCFDE17045786004C33B6 /* Directory Utilities */,
 				226F3B8317044C5400D489DB /* SFToolKit.h */,
+				17DAE80A17D9E71F00F0B67F /* UIDevice Additions */,
 				22999E9D1758FBA8009812E2 /* SFAssert.h */,
 				174B8DC71777232600F8FA83 /* SFEmptiness.h */,
 				174B8DC91777235F00F8FA83 /* SFEmptiness.m */,

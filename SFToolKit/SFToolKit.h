@@ -20,6 +20,7 @@
 #import "UIButton+IncreasedTouchArea.h"
 #import "SFBaseAppDelegate.h"
 #import "SFEmptiness.h"
+#import "UIDevice+SFDeviceInformation.h"
 
 #import <CocoaLumberjack/DDLog.h>
 
