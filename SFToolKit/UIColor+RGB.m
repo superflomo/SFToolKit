@@ -10,7 +10,19 @@
 
 @implementation UIColor (RGB)
 
-+(UIColor*)colorWithHexValue:(uint)hexValue andAlpha:(float)alpha {
++ (UIColor *)colorWithHexString:(NSString *)hexString
+{
+    return [self colorWithHexString:hexString andAlpha:1.0f];
+}
+
+
++ (UIColor *)colorWithHexValue:(uint)hexValue
+{
+    return [self colorWithHexValue:hexValue andAlpha:1.0f];
+}
+
+
++ (UIColor *)colorWithHexValue:(uint)hexValue andAlpha:(float)alpha {
     return [UIColor
             colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0
             green:((float)((hexValue & 0xFF00) >> 8))/255.0
