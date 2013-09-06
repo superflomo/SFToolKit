@@ -15,6 +15,6 @@
 // FrameAccessor
 #define COCOAPODS_POD_AVAILABLE_FrameAccessor
 #define COCOAPODS_VERSION_MAJOR_FrameAccessor 1
-#define COCOAPODS_VERSION_MINOR_FrameAccessor 1
+#define COCOAPODS_VERSION_MINOR_FrameAccessor 2
 #define COCOAPODS_VERSION_PATCH_FrameAccessor 0
 

@@ -1,5 +1,4 @@
-#include "Pods-CocoaLumberjack"
-ALWAYS_SEARCH_USER_PATHS = YES
+#include "Pods-CocoaLumberjack.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/CocoaLumberjack" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/CocoaLumberjack" "${PODS_ROOT}/Headers/FrameAccessor" "${PODS_ROOT}/Headers/OCMock"
 OTHER_LDFLAGS = -ObjC
