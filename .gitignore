@@ -1,6 +1,9 @@
 # OS X Finder
 .DS_Store
 
+# AppCode
+.idea/
+
 # Xcode per-user config
 *.mode1
 *.mode1v3
