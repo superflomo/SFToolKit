@@ -8,6 +8,7 @@
 
 #import "UIColor+RGB.h"
 
+
 @implementation UIColor (RGB)
 
 + (UIColor *)colorWithHexString:(NSString *)hexString
@@ -22,15 +23,18 @@
 }
 
 
-+ (UIColor *)colorWithHexValue:(uint)hexValue andAlpha:(float)alpha {
++ (UIColor *)colorWithHexValue:(uint)hexValue andAlpha:(float)alpha
+{
     return [UIColor
-            colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0
-            green:((float)((hexValue & 0xFF00) >> 8))/255.0
-            blue:((float)(hexValue & 0xFF))/255.0
-            alpha:alpha];
+            colorWithRed:((float) ((hexValue & 0xFF0000) >> 16)) / 255.0
+                   green:((float) ((hexValue & 0xFF00) >> 8)) / 255.0
+                    blue:((float) (hexValue & 0xFF)) / 255.0
+                   alpha:alpha];
 }
 
-+(UIColor*)colorWithHexString:(NSString*)hexString andAlpha:(float)alpha {
+
++ (UIColor *)colorWithHexString:(NSString *)hexString andAlpha:(float)alpha
+{
     UIColor *col;
     hexString = [hexString stringByReplacingOccurrencesOfString:@"#"
                                                      withString:@"0x"];

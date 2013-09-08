@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+
 extern int ddLogLevel;
+
 
 @interface SFBaseAppDelegate : UIResponder <UIApplicationDelegate>
 

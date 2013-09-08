@@ -8,16 +8,20 @@
 
 #import "NSFileManager+Directories.h"
 
+
 @implementation NSFileManager (Directories)
 
--(NSString*)applicationSupportDirectory {
+- (NSString *)applicationSupportDirectory
+{
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
     NSString *applicationSupportPath = [paths objectAtIndex:0];
-    
+
     return applicationSupportPath;
 }
 
--(NSString*)documentsDirectory {
+
+- (NSString *)documentsDirectory
+{
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsPath = [paths objectAtIndex:0];
     return documentsPath;

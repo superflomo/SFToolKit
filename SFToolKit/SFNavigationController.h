@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface SFNavigationController : UINavigationController
 
 @property (getter = sf_shouldDisablesAutomaticKeyboardDismissal) BOOL sf_disablesAutomaticKeyboardDismissal;

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CocoaLumberjack/DDLog.h>
 
+
 @interface SFLogFormatter : NSObject <DDLogFormatter>
 
 @end

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface NSString (SFMD5Utilities)
 
 /**
@@ -16,6 +17,7 @@
 + (NSString *)sf_md5HashFromString:(NSString *)aString;
 
 @end
+
 
 @interface NSData (SFMD5Utilities)
 

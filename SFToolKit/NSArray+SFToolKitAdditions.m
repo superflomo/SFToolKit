@@ -8,15 +8,16 @@
 
 #import "NSArray+SFToolKitAdditions.h"
 
+
 @implementation NSArray (SFToolKitAdditions)
 
 - (id)firstObject;
 {
-	if ([self count] > 0) {
-		return self[0];
-	} else {
-		return nil;
-	}
+    if ([self count] > 0) {
+        return self[0];
+    } else {
+        return nil;
+    }
 }
 
 @end

@@ -8,16 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface NSFileManager (Directories)
 
 /**
  * Returns the path to the application support directory.
  */
--(NSString*)applicationSupportDirectory;
+- (NSString *)applicationSupportDirectory;
 
 /**
  * Returns the path to the local documents directory.
  */
--(NSString*)documentsDirectory;
+- (NSString *)documentsDirectory;
 
 @end

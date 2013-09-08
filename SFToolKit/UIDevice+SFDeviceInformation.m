@@ -7,7 +7,7 @@
 //
 
 #import "UIDevice+SFDeviceInformation.h"
-#import <CocoaLumberjack/DDLog.h>
+
 
 @implementation UIDevice (SFDeviceInformation)
 

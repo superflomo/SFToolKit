@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface NSArray (SFToolKitAdditions)
 
 - (id)firstObject;

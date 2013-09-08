@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface UIColor (RGB)
 
 // alpha 1.0f
 + (UIColor *)colorWithHexString:(NSString *)hexString;
 + (UIColor *)colorWithHexValue:(uint)hexValue;
 
-+ (UIColor*)colorWithHexValue:(uint)hexValue andAlpha:(float)alpha;
-+ (UIColor*)colorWithHexString:(NSString *)hexString andAlpha:(float)alpha;
++ (UIColor *)colorWithHexValue:(uint)hexValue andAlpha:(float)alpha;
++ (UIColor *)colorWithHexString:(NSString *)hexString andAlpha:(float)alpha;
 
 @end

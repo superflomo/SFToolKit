@@ -12,6 +12,7 @@
 
 #import "SFSwizzle.h"
 
+
 #ifndef SFToolKit_SFUIKitMainThreadGuard_h
 #define SFToolKit_SFUIKitMainThreadGuard_h
 
@@ -29,6 +30,7 @@ static void SFAssertIfNotMainThread(void) {
     SFAssert([NSThread isMainThread], @"\nERROR: All calls to UIKit need to happen on the main thread. You have a bug in your code. Use dispatch_async(dispatch_get_main_queue(), ^{ ... }); if you're unsure what thread you're in.\n\nBreak on SFAssertIfNotMainThread to find out where.\n\nStacktrace: %@", [NSThread callStackSymbols]);
 }
 
+
 // This installs a small guard that checks for the most common threading-errors in UIKit.
 // This won't really slow down performance but still only is compiled in DEBUG versions of SFKit.
 // @note No private API is used here.
@@ -39,17 +41,18 @@ __attribute__((constructor)) static void SFUIKitMainThreadGuard(void) {
             if ([selector hasSuffix:@":"]) {
                 SFReplaceMethod(UIView.class, NSSelectorFromString(selector), newSelector, imp_implementationWithBlock(^(UIView *_self, CGRect r) {
                     SFAssertIfNotMainThread();
-                    ((void ( *)(id, SEL, CGRect))objc_msgSend)(_self, newSelector, r);
+                    ((void ( *)(id, SEL, CGRect)) objc_msgSend)(_self, newSelector, r);
                 }));
-            }else {
+            } else {
                 SFReplaceMethod(UIView.class, NSSelectorFromString(selector), newSelector, imp_implementationWithBlock(^(UIView *_self) {
                     SFAssertIfNotMainThread();
-                    ((void ( *)(id, SEL))objc_msgSend)(_self, newSelector);
+                    ((void ( *)(id, SEL)) objc_msgSend)(_self, newSelector);
                 }));
             }
         }
     }
 }
+
 
 #endif
 

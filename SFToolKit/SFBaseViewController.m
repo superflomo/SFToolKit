@@ -7,27 +7,29 @@
 //
 
 #import "SFBaseViewController.h"
-#import "NSString+SFToolKitAdditions.h"
-#import "SFEmptiness.h"
+
 
 @interface SFBaseViewController ()
+
 + (BOOL)isXibWithName:(NSString *)xibName inBundle:(NSBundle *)bundle;
 @end
+
 
 @implementation SFBaseViewController
 
 - (void)commonSFBaseViewControllerInit
 {
-	// Override in subclasses to customize initialization...
+    // Override in subclasses to customize initialization...
 }
+
 
 + (NSString *)defaultNibName
 {
     NSBundle *mainBundle = [NSBundle mainBundle];
-	NSString *xibName;
-	NSString *className = NSStringFromClass(self);
+    NSString *xibName;
+    NSString *className = NSStringFromClass(self);
 
-	xibName = [className stringByReplacingOccurrencesOfString:@"Controller" withString:@""];
+    xibName = [className stringByReplacingOccurrencesOfString:@"Controller" withString:@""];
 
     if ([self isXibWithName:xibName inBundle:mainBundle]) {
         return xibName;
@@ -52,51 +54,54 @@
     return nil;
 }
 
+
 - (NSString *)defaultNibName
 {
-	return [[self class] defaultNibName];
+    return [[self class] defaultNibName];
 }
 
 #pragma mark - Initializer
 
 - (id)init
 {
-	return [self initWithNibName:[self defaultNibName] bundle:nil];
+    return [self initWithNibName:[self defaultNibName] bundle:nil];
 }
+
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
-	if (!self) {
+    if (!self) {
         return nil;
-	}
+    }
 
     [self commonSFBaseViewControllerInit];
 
-	return self;
+    return self;
 }
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-	if (!self) {
+    if (!self) {
         return nil;
-	}
-    
+    }
+
     [self commonSFBaseViewControllerInit];
 
-	return self;
+    return self;
 }
 
 #pragma mark - Private
 
 + (BOOL)isXibWithName:(NSString *)xibName inBundle:(NSBundle *)bundle;
 {
-	if ([bundle pathForResource:xibName ofType:@"nib"] == nil) {
-		return NO;
-	}
+    if ([bundle pathForResource:xibName ofType:@"nib"] == nil) {
+        return NO;
+    }
 
-	return YES;
+    return YES;
 }
 
 @end

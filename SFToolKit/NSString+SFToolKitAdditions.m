@@ -8,12 +8,14 @@
 
 #import "NSString+SFToolKitAdditions.h"
 
+
 @implementation NSString (SFToolKitAdditions)
 
 - (BOOL)containsString:(NSString *)string;
 {
     return [self containsString:string options:0];
 }
+
 
 - (BOOL)containsString:(NSString *)string options:(NSStringCompareOptions)options;
 {

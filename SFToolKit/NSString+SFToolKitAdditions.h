@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface NSString (SFToolKitAdditions)
 
 - (BOOL)containsString:(NSString *)string;

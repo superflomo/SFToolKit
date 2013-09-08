@@ -12,33 +12,40 @@
 #import <CocoaLumberjack/DDTTYLogger.h>
 #import <CocoaLumberjack/DDASLLogger.h>
 
+
 #ifdef DEBUG
 int ddLogLevel = LOG_LEVEL_VERBOSE;
 #else
 int ddLogLevel = LOG_LEVEL_WARN;
 #endif
 
+
 @interface SFBaseAppDelegate ()
+
 - (void)configureCocoaLumberjack;
 @end
 
+
 @implementation SFBaseAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     [self configureCocoaLumberjack];
-	return YES;
+    return YES;
 }
 
-- (void)configureCocoaLumberjack {
-	SFLogFormatter *formatter = [[SFLogFormatter alloc] init];
+
+- (void)configureCocoaLumberjack
+{
+    SFLogFormatter *formatter = [[SFLogFormatter alloc] init];
 #ifdef DEBUG
-	DDTTYLogger *ttyLogger = [DDTTYLogger sharedInstance];
-	ttyLogger.logFormatter = formatter;
-	[DDLog addLogger:ttyLogger];
+    DDTTYLogger *ttyLogger = [DDTTYLogger sharedInstance];
+    ttyLogger.logFormatter = formatter;
+    [DDLog addLogger:ttyLogger];
 #endif
-	DDASLLogger *aslLogger = [DDASLLogger sharedInstance];
-	aslLogger.logFormatter = formatter;
-	[DDLog addLogger:aslLogger];
+    DDASLLogger *aslLogger = [DDASLLogger sharedInstance];
+    aslLogger.logFormatter = formatter;
+    [DDLog addLogger:aslLogger];
 }
 
 @end
