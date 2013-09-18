@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SFToolKit'
-  s.version      = '0.2.5'
+  s.version      = '0.2.6'
   s.summary      = 'Collection of useful cocoa classes & categories.'
   s.homepage     = 'https://github.com/superflomo/SFToolKit'
   s.author       = { 'Florian Buerger' => 'flo@superflomo.com', 'Moritz Haarmann' => 'mo@superflomo.com' }
