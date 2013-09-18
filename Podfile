@@ -1,8 +1,11 @@
-platform :ios, '6.0'
+platform :ios, "6.0"
 
-pod 'FrameAccessor'
-pod 'CocoaLumberjack'
-
-target :SFToolKitTests do
-  pod 'OCMock'
+target "SFToolKit" do
+	pod 'FrameAccessor'
+	pod 'CocoaLumberjack'
 end
+
+target "SFToolKit Tests" do
+	pod 'OCMock'
+end
+
