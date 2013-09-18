@@ -20,15 +20,4 @@
 	STAssertThrows([SFBaseViewController defaultNibName], nil);
 }
 
-- (void)testItShouldReturnNibNameWithoutControllerWhenXibExists
-{
-	id mockBundle = [OCMockObject mockForClass:[NSBundle class]];
-    
-	[[[mockBundle stub] andReturn:@"path"] pathForResource:[OCMArg any] ofType:[OCMArg any]];
-	NSString *expected = @"SFBaseView";
-	NSString *result = [SFBaseViewController defaultNibNameInBundle:mockBundle];
-    
-	STAssertEqualObjects(expected, result, nil);
-}
-
 @end
