@@ -10,35 +10,32 @@
 		0AA50349A362448B8ED084B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC852CB818D646DB96349F94 /* libPods.a */; };
 		170005691779C84E004FF244 /* UIDevice+SFDeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 170005681779C84E004FF244 /* UIDevice+SFDeviceInformation.m */; };
 		17037A551773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 17037A541773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m */; };
+		17235C7117E9DAFE00BF830A /* NSDate+SFDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17235C7017E9DAFE00BF830A /* NSDate+SFDateAdditions.m */; };
+		17235C7B17E9E4D300BF830A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17235C7417E9E4B000BF830A /* XCTest.framework */; };
+		17235C7C17E9E4D300BF830A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7E17044C5400D489DB /* Foundation.framework */; };
+		17235C7D17E9E4D300BF830A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B8F17044C5400D489DB /* UIKit.framework */; };
+		17235C8317E9E4D300BF830A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17235C8117E9E4D300BF830A /* InfoPlist.strings */; };
+		17235C8D17E9E68A00BF830A /* NSDateAdditions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17235C8C17E9E68A00BF830A /* NSDateAdditions_Tests.m */; };
+		17235C8E17E9E7B100BF830A /* NSDate+SFDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17235C7017E9DAFE00BF830A /* NSDate+SFDateAdditions.m */; };
 		174B8DCA1777235F00F8FA83 /* SFEmptiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 174B8DC91777235F00F8FA83 /* SFEmptiness.m */; };
-		174B8DCB1777235F00F8FA83 /* SFEmptiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 174B8DC91777235F00F8FA83 /* SFEmptiness.m */; };
 		17C668D41774662A000C96D5 /* SFLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C668D31774662A000C96D5 /* SFLogFormatter.m */; };
 		17C668D7177466E1000C96D5 /* SFBaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C668D6177466E1000C96D5 /* SFBaseAppDelegate.m */; };
 		2209B4F417297D2A00769949 /* SFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2209B4F317297D2A00769949 /* SFNavigationController.m */; };
 		222ED1FB1729525D00583E44 /* SFBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */; };
 		226F3B7F17044C5400D489DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7E17044C5400D489DB /* Foundation.framework */; };
 		226F3B8417044C5400D489DB /* SFToolKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 226F3B8317044C5400D489DB /* SFToolKit.h */; };
-		226F3B8E17044C5400D489DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B8D17044C5400D489DB /* SenTestingKit.framework */; };
-		226F3B9017044C5400D489DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B8F17044C5400D489DB /* UIKit.framework */; };
-		226F3B9117044C5400D489DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7E17044C5400D489DB /* Foundation.framework */; };
-		226F3B9417044C5400D489DB /* libSFToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F3B7B17044C5400D489DB /* libSFToolKit.a */; };
-		226F3B9A17044C5400D489DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 226F3B9817044C5400D489DB /* InfoPlist.strings */; };
-		22F5E08D17044C7E005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
 		22F5E08E17044C8B005D948C /* SFMD5Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E08C17044C7E005D948C /* SFMD5Utilities.m */; };
 		22FE2F2D171C017B001D4449 /* SFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2F2C171C017B001D4449 /* SFBaseViewController.m */; };
 		22FE2F30171C05FD001D4449 /* NSString+SFToolKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2F2F171C05FD001D4449 /* NSString+SFToolKitAdditions.m */; };
-		22FE2F33171C0785001D4449 /* SFBaseViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2F32171C0785001D4449 /* SFBaseViewControllerTests.m */; };
-		22FE2F35171C07D6001D4449 /* SFBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22FE2F34171C07D6001D4449 /* SFBaseViewController.xib */; };
-		22FE2F38171C0824001D4449 /* SFStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2F37171C0824001D4449 /* SFStringAdditionsTests.m */; };
-		22FE2F39171C08AE001D4449 /* NSString+SFToolKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2F2F171C05FD001D4449 /* NSString+SFToolKitAdditions.m */; };
 		22FF6A66171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FF6A65171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m */; };
-		7279D1B844C7480D8187A5F9 /* libPods-SFToolKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E90F55F4A4421DA5E2E60E /* libPods-SFToolKitTests.a */; };
+		3788063FDA62423DBD2FCE8B /* libPods-SFToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47461282108540B4AAAD923A /* libPods-SFToolKit.a */; };
 		97DFCFE1170457A8004C33B6 /* NSFileManager+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DFCFE0170457A8004C33B6 /* NSFileManager+Directories.m */; };
 		97DFCFE217045840004C33B6 /* NSFileManager+Directories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 97DFCFDF170457A8004C33B6 /* NSFileManager+Directories.h */; };
+		BE8BDE56BC5A4467BB713399 /* libPods-SFToolKit Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FB9D8B61094260BC2DAFAF /* libPods-SFToolKit Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		226F3B9217044C5400D489DB /* PBXContainerItemProxy */ = {
+		17235C8717E9E4D300BF830A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 226F3B7317044C5400D489DB /* Project object */;
 			proxyType = 1;
@@ -70,6 +67,14 @@
 		17037A541773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+IncreasedTouchArea.m"; sourceTree = "<group>"; };
 		17037A561773043600EEA0B1 /* SFSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSwizzle.m; sourceTree = "<group>"; };
 		17037A5717730C7000EEA0B1 /* SFSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSwizzle.h; sourceTree = "<group>"; };
+		17235C6F17E9DAFE00BF830A /* NSDate+SFDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SFDateAdditions.h"; sourceTree = "<group>"; };
+		17235C7017E9DAFE00BF830A /* NSDate+SFDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SFDateAdditions.m"; sourceTree = "<group>"; };
+		17235C7417E9E4B000BF830A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17235C7A17E9E4D300BF830A /* SFToolKit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SFToolKit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17235C8017E9E4D300BF830A /* SFToolKit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFToolKit Tests-Info.plist"; sourceTree = "<group>"; };
+		17235C8217E9E4D300BF830A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17235C8617E9E4D300BF830A /* SFToolKit Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFToolKit Tests-Prefix.pch"; sourceTree = "<group>"; };
+		17235C8C17E9E68A00BF830A /* NSDateAdditions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions_Tests.m; sourceTree = "<group>"; };
 		172AEF641777214100DEB1D4 /* SFBaseView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFBaseView_iPad.xib; sourceTree = "<group>"; };
 		174B8DC6177721A600F8FA83 /* SFBaseView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFBaseView_iPhone.xib; sourceTree = "<group>"; };
 		174B8DC71777232600F8FA83 /* SFEmptiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFEmptiness.h; sourceTree = "<group>"; };
@@ -86,7 +91,6 @@
 		226F3B7E17044C5400D489DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		226F3B8217044C5400D489DB /* SFToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFToolKit-Prefix.pch"; sourceTree = "<group>"; };
 		226F3B8317044C5400D489DB /* SFToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFToolKit.h; sourceTree = "<group>"; };
-		226F3B8C17044C5400D489DB /* SFToolKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFToolKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		226F3B8D17044C5400D489DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		226F3B8F17044C5400D489DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		226F3B9717044C5400D489DB /* SFToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFToolKitTests-Info.plist"; sourceTree = "<group>"; };
@@ -104,35 +108,39 @@
 		22FE2F37171C0824001D4449 /* SFStringAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFStringAdditionsTests.m; sourceTree = "<group>"; };
 		22FF6A64171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SFToolKitAdditions.h"; sourceTree = "<group>"; };
 		22FF6A65171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SFToolKitAdditions.m"; sourceTree = "<group>"; };
+		30FB9D8B61094260BC2DAFAF /* libPods-SFToolKit Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFToolKit Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47461282108540B4AAAD923A /* libPods-SFToolKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFToolKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E86CD991AB543DC9EA33E42 /* Pods-SFToolKit Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFToolKit Tests.xcconfig"; path = "Pods/Pods-SFToolKit Tests.xcconfig"; sourceTree = "<group>"; };
 		8AABFC923C604CB2B19AB230 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		9756641E170C80A300767C0F /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
 		9756641F170C80A300767C0F /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
 		97DFCFDF170457A8004C33B6 /* NSFileManager+Directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Directories.h"; sourceTree = "<group>"; };
 		97DFCFE0170457A8004C33B6 /* NSFileManager+Directories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Directories.m"; sourceTree = "<group>"; };
+		AEAF1C171FE0426C8024B89F /* Pods-SFToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFToolKit.xcconfig"; path = "Pods/Pods-SFToolKit.xcconfig"; sourceTree = "<group>"; };
 		BC852CB818D646DB96349F94 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E90F55F4A4421DA5E2E60E /* libPods-SFToolKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFToolKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3570D36819D44258C11A1F0 /* Pods-SFToolKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFToolKitTests.xcconfig"; path = "Pods/Pods-SFToolKitTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		D25899BA0338F02BEEF84332 /* NSDateAdditionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		17235C7717E9E4D300BF830A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17235C7B17E9E4D300BF830A /* XCTest.framework in Frameworks */,
+				17235C7D17E9E4D300BF830A /* UIKit.framework in Frameworks */,
+				17235C7C17E9E4D300BF830A /* Foundation.framework in Frameworks */,
+				BE8BDE56BC5A4467BB713399 /* libPods-SFToolKit Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		226F3B7817044C5400D489DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				226F3B7F17044C5400D489DB /* Foundation.framework in Frameworks */,
 				0AA50349A362448B8ED084B7 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		226F3B8817044C5400D489DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				226F3B8E17044C5400D489DB /* SenTestingKit.framework in Frameworks */,
-				226F3B9017044C5400D489DB /* UIKit.framework in Frameworks */,
-				226F3B9117044C5400D489DB /* Foundation.framework in Frameworks */,
-				226F3B9417044C5400D489DB /* libSFToolKit.a in Frameworks */,
-				7279D1B844C7480D8187A5F9 /* libPods-SFToolKitTests.a in Frameworks */,
+				3788063FDA62423DBD2FCE8B /* libPods-SFToolKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +154,34 @@
 				17037A541773013D00EEA0B1 /* UIButton+IncreasedTouchArea.m */,
 			);
 			name = "UIButton Additions";
+			sourceTree = "<group>";
+		};
+		17235C6E17E9DAE700BF830A /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				17235C6F17E9DAFE00BF830A /* NSDate+SFDateAdditions.h */,
+				17235C7017E9DAFE00BF830A /* NSDate+SFDateAdditions.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+		17235C7E17E9E4D300BF830A /* SFToolKit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17235C7F17E9E4D300BF830A /* Supporting Files */,
+				17235C8C17E9E68A00BF830A /* NSDateAdditions_Tests.m */,
+			);
+			path = "SFToolKit Tests";
+			sourceTree = "<group>";
+		};
+		17235C7F17E9E4D300BF830A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17235C8017E9E4D300BF830A /* SFToolKit Tests-Info.plist */,
+				17235C8117E9E4D300BF830A /* InfoPlist.strings */,
+				17235C8617E9E4D300BF830A /* SFToolKit Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		17C668D117746614000C96D5 /* Cocoa Lumberjack */ = {
@@ -173,10 +209,12 @@
 				1700056B1779CAD3004FF244 /* SFToolKit.podspec */,
 				226F3B8017044C5400D489DB /* SFToolKit */,
 				226F3B9517044C5400D489DB /* SFToolKitTests */,
+				17235C7E17E9E4D300BF830A /* SFToolKit Tests */,
 				226F3B7D17044C5400D489DB /* Frameworks */,
 				226F3B7C17044C5400D489DB /* Products */,
-				F3570D36819D44258C11A1F0 /* Pods-SFToolKitTests.xcconfig */,
 				8AABFC923C604CB2B19AB230 /* Pods.xcconfig */,
+				7E86CD991AB543DC9EA33E42 /* Pods-SFToolKit Tests.xcconfig */,
+				AEAF1C171FE0426C8024B89F /* Pods-SFToolKit.xcconfig */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -187,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				226F3B7B17044C5400D489DB /* libSFToolKit.a */,
-				226F3B8C17044C5400D489DB /* SFToolKitTests.octest */,
+				17235C7A17E9E4D300BF830A /* SFToolKit Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,11 +233,14 @@
 		226F3B7D17044C5400D489DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17235C7417E9E4B000BF830A /* XCTest.framework */,
 				226F3B7E17044C5400D489DB /* Foundation.framework */,
 				226F3B8D17044C5400D489DB /* SenTestingKit.framework */,
 				226F3B8F17044C5400D489DB /* UIKit.framework */,
 				C0E90F55F4A4421DA5E2E60E /* libPods-SFToolKitTests.a */,
 				BC852CB818D646DB96349F94 /* libPods.a */,
+				30FB9D8B61094260BC2DAFAF /* libPods-SFToolKit Tests.a */,
+				47461282108540B4AAAD923A /* libPods-SFToolKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,36 +249,37 @@
 			isa = PBXGroup;
 			children = (
 				17C668D117746614000C96D5 /* Cocoa Lumberjack */,
+				97DFCFDE17045786004C33B6 /* Directory Utilities */,
+				22FF6A64171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.h */,
+				22FF6A65171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m */,
+				17235C6E17E9DAE700BF830A /* NSDate */,
+				22FE2F2E171C05FD001D4449 /* NSString+SFToolKitAdditions.h */,
+				22FE2F2F171C05FD001D4449 /* NSString+SFToolKitAdditions.m */,
+				22999E9D1758FBA8009812E2 /* SFAssert.h */,
+				17C668D5177466E1000C96D5 /* SFBaseAppDelegate.h */,
+				17C668D6177466E1000C96D5 /* SFBaseAppDelegate.m */,
+				222ED1F91729525D00583E44 /* SFBaseTableViewController.h */,
+				222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */,
+				172AEF641777214100DEB1D4 /* SFBaseView_iPad.xib */,
+				174B8DC6177721A600F8FA83 /* SFBaseView_iPhone.xib */,
+				22FE2F2B171C017B001D4449 /* SFBaseViewController.h */,
+				22FE2F2C171C017B001D4449 /* SFBaseViewController.m */,
+				174B8DC71777232600F8FA83 /* SFEmptiness.h */,
+				174B8DC91777235F00F8FA83 /* SFEmptiness.m */,
+				22F5E08B17044C7E005D948C /* SFMD5Utilities.h */,
+				22F5E08C17044C7E005D948C /* SFMD5Utilities.m */,
+				2209B4F217297D2A00769949 /* SFNavigationController.h */,
+				2209B4F317297D2A00769949 /* SFNavigationController.m */,
+				17037A5717730C7000EEA0B1 /* SFSwizzle.h */,
+				17037A561773043600EEA0B1 /* SFSwizzle.m */,
+				226F3B8317044C5400D489DB /* SFToolKit.h */,
+				22999E9E1758FC4A009812E2 /* SFUIKitMainThreadGuard.h */,
+				226F3B8117044C5400D489DB /* Supporting Files */,
 				17037A521773011800EEA0B1 /* UIButton Additions */,
 				97566419170C806300767C0F /* UIColor Additions */,
-				97DFCFDE17045786004C33B6 /* Directory Utilities */,
-				226F3B8317044C5400D489DB /* SFToolKit.h */,
 				17DAE80A17D9E71F00F0B67F /* UIDevice Additions */,
 				170005671779C84E004FF244 /* UIDevice+SFDeviceInformation.h */,
 				170005681779C84E004FF244 /* UIDevice+SFDeviceInformation.m */,
-				22999E9D1758FBA8009812E2 /* SFAssert.h */,
-				174B8DC71777232600F8FA83 /* SFEmptiness.h */,
-				174B8DC91777235F00F8FA83 /* SFEmptiness.m */,
-				22999E9E1758FC4A009812E2 /* SFUIKitMainThreadGuard.h */,
-				22F5E08B17044C7E005D948C /* SFMD5Utilities.h */,
-				22F5E08C17044C7E005D948C /* SFMD5Utilities.m */,
-				226F3B8117044C5400D489DB /* Supporting Files */,
-				22FE2F2B171C017B001D4449 /* SFBaseViewController.h */,
-				22FE2F2C171C017B001D4449 /* SFBaseViewController.m */,
-				174B8DC6177721A600F8FA83 /* SFBaseView_iPhone.xib */,
-				172AEF641777214100DEB1D4 /* SFBaseView_iPad.xib */,
-				22FE2F2E171C05FD001D4449 /* NSString+SFToolKitAdditions.h */,
-				22FE2F2F171C05FD001D4449 /* NSString+SFToolKitAdditions.m */,
-				22FF6A64171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.h */,
-				22FF6A65171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m */,
-				222ED1F91729525D00583E44 /* SFBaseTableViewController.h */,
-				2209B4F217297D2A00769949 /* SFNavigationController.h */,
-				2209B4F317297D2A00769949 /* SFNavigationController.m */,
-				222ED1FA1729525D00583E44 /* SFBaseTableViewController.m */,
-				17037A5717730C7000EEA0B1 /* SFSwizzle.h */,
-				17037A561773043600EEA0B1 /* SFSwizzle.m */,
-				17C668D5177466E1000C96D5 /* SFBaseAppDelegate.h */,
-				17C668D6177466E1000C96D5 /* SFBaseAppDelegate.m */,
 			);
 			path = SFToolKit;
 			sourceTree = "<group>";
@@ -257,6 +299,7 @@
 				22FE2F32171C0785001D4449 /* SFBaseViewControllerTests.m */,
 				22FE2F34171C07D6001D4449 /* SFBaseViewController.xib */,
 				22FE2F37171C0824001D4449 /* SFStringAdditionsTests.m */,
+				D25899BA0338F02BEEF84332 /* NSDateAdditionTests.m */,
 			);
 			path = SFToolKitTests;
 			sourceTree = "<group>";
@@ -291,6 +334,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		17235C7917E9E4D300BF830A /* SFToolKit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17235C8917E9E4D300BF830A /* Build configuration list for PBXNativeTarget "SFToolKit Tests" */;
+			buildPhases = (
+				3F24BC9ED48D47E39B779816 /* Check Pods Manifest.lock */,
+				17235C7617E9E4D300BF830A /* Sources */,
+				17235C7717E9E4D300BF830A /* Frameworks */,
+				17235C7817E9E4D300BF830A /* Resources */,
+				63787A0646424BD1B1ACCE4E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17235C8817E9E4D300BF830A /* PBXTargetDependency */,
+			);
+			name = "SFToolKit Tests";
+			productName = "SFToolKit Tests";
+			productReference = 17235C7A17E9E4D300BF830A /* SFToolKit Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		226F3B7A17044C5400D489DB /* SFToolKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 226F3BA017044C5400D489DB /* Build configuration list for PBXNativeTarget "SFToolKit" */;
@@ -311,27 +374,6 @@
 			productReference = 226F3B7B17044C5400D489DB /* libSFToolKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		226F3B8B17044C5400D489DB /* SFToolKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 226F3BA317044C5400D489DB /* Build configuration list for PBXNativeTarget "SFToolKitTests" */;
-			buildPhases = (
-				A737E3064009407FBC5AC086 /* Check Pods Manifest.lock */,
-				226F3B8717044C5400D489DB /* Sources */,
-				226F3B8817044C5400D489DB /* Frameworks */,
-				226F3B8917044C5400D489DB /* Resources */,
-				226F3B8A17044C5400D489DB /* ShellScript */,
-				FF969A991CF14D368512874C /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				226F3B9317044C5400D489DB /* PBXTargetDependency */,
-			);
-			name = SFToolKitTests;
-			productName = SFToolKitTests;
-			productReference = 226F3B8C17044C5400D489DB /* SFToolKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -340,6 +382,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = superflomo;
+				TargetAttributes = {
+					17235C7917E9E4D300BF830A = {
+						TestTargetID = 226F3B7A17044C5400D489DB;
+					};
+				};
 			};
 			buildConfigurationList = 226F3B7617044C5400D489DB /* Build configuration list for PBXProject "SFToolKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -354,37 +401,23 @@
 			projectRoot = "";
 			targets = (
 				226F3B7A17044C5400D489DB /* SFToolKit */,
-				226F3B8B17044C5400D489DB /* SFToolKitTests */,
+				17235C7917E9E4D300BF830A /* SFToolKit Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		226F3B8917044C5400D489DB /* Resources */ = {
+		17235C7817E9E4D300BF830A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226F3B9A17044C5400D489DB /* InfoPlist.strings in Resources */,
-				22FE2F35171C07D6001D4449 /* SFBaseViewController.xib in Resources */,
+				17235C8317E9E4D300BF830A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		226F3B8A17044C5400D489DB /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
 		26EFF6CC8E414CDAB1C53635 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,7 +444,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-SFToolKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F24BC9ED48D47E39B779816 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 		5826B3CDED13431389F01105 /* Warn for TODO and FIXME comments */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -427,21 +476,7 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
-		A737E3064009407FBC5AC086 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
-		};
-		FF969A991CF14D368512874C /* Copy Pods Resources */ = {
+		63787A0646424BD1B1ACCE4E /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,11 +488,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-SFToolKitTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-SFToolKit Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		17235C7617E9E4D300BF830A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17235C8D17E9E68A00BF830A /* NSDateAdditions_Tests.m in Sources */,
+				17235C8E17E9E7B100BF830A /* NSDate+SFDateAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		226F3B7717044C5400D489DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -470,6 +515,7 @@
 				174B8DCA1777235F00F8FA83 /* SFEmptiness.m in Sources */,
 				22FE2F2D171C017B001D4449 /* SFBaseViewController.m in Sources */,
 				22FE2F30171C05FD001D4449 /* NSString+SFToolKitAdditions.m in Sources */,
+				17235C7117E9DAFE00BF830A /* NSDate+SFDateAdditions.m in Sources */,
 				22FF6A66171C58BE00C8ACAC /* NSArray+SFToolKitAdditions.m in Sources */,
 				17C668D7177466E1000C96D5 /* SFBaseAppDelegate.m in Sources */,
 				222ED1FB1729525D00583E44 /* SFBaseTableViewController.m in Sources */,
@@ -477,29 +523,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		226F3B8717044C5400D489DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22F5E08D17044C7E005D948C /* SFMD5Utilities.m in Sources */,
-				22FE2F33171C0785001D4449 /* SFBaseViewControllerTests.m in Sources */,
-				22FE2F38171C0824001D4449 /* SFStringAdditionsTests.m in Sources */,
-				174B8DCB1777235F00F8FA83 /* SFEmptiness.m in Sources */,
-				22FE2F39171C08AE001D4449 /* NSString+SFToolKitAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		226F3B9317044C5400D489DB /* PBXTargetDependency */ = {
+		17235C8817E9E4D300BF830A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 226F3B7A17044C5400D489DB /* SFToolKit */;
-			targetProxy = 226F3B9217044C5400D489DB /* PBXContainerItemProxy */;
+			targetProxy = 17235C8717E9E4D300BF830A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		17235C8117E9E4D300BF830A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17235C8217E9E4D300BF830A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		226F3B9817044C5400D489DB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -511,6 +553,59 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		17235C8A17E9E4D300BF830A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E86CD991AB543DC9EA33E42 /* Pods-SFToolKit Tests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFToolKit Tests/SFToolKit Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "SFToolKit Tests/SFToolKit Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17235C8B17E9E4D300BF830A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E86CD991AB543DC9EA33E42 /* Pods-SFToolKit Tests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFToolKit Tests/SFToolKit Tests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "SFToolKit Tests/SFToolKit Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		226F3B9E17044C5400D489DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,7 +689,7 @@
 		};
 		226F3BA117044C5400D489DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AABFC923C604CB2B19AB230 /* Pods.xcconfig */;
+			baseConfigurationReference = AEAF1C171FE0426C8024B89F /* Pods-SFToolKit.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/SFToolKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -606,7 +701,7 @@
 		};
 		226F3BA217044C5400D489DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AABFC923C604CB2B19AB230 /* Pods.xcconfig */;
+			baseConfigurationReference = AEAF1C171FE0426C8024B89F /* Pods-SFToolKit.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/SFToolKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -616,41 +711,18 @@
 			};
 			name = Release;
 		};
-		226F3BA417044C5400D489DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3570D36819D44258C11A1F0 /* Pods-SFToolKitTests.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SFToolKit/SFToolKit-Prefix.pch";
-				INFOPLIST_FILE = "SFToolKitTests/SFToolKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		226F3BA517044C5400D489DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3570D36819D44258C11A1F0 /* Pods-SFToolKitTests.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SFToolKit/SFToolKit-Prefix.pch";
-				INFOPLIST_FILE = "SFToolKitTests/SFToolKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		17235C8917E9E4D300BF830A /* Build configuration list for PBXNativeTarget "SFToolKit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17235C8A17E9E4D300BF830A /* Debug */,
+				17235C8B17E9E4D300BF830A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		226F3B7617044C5400D489DB /* Build configuration list for PBXProject "SFToolKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -665,15 +737,6 @@
 			buildConfigurations = (
 				226F3BA117044C5400D489DB /* Debug */,
 				226F3BA217044C5400D489DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		226F3BA317044C5400D489DB /* Build configuration list for PBXNativeTarget "SFToolKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				226F3BA417044C5400D489DB /* Debug */,
-				226F3BA517044C5400D489DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
